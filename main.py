@@ -16,10 +16,15 @@ app = FastAPI(
 )
 
 # Enable CORS for Vite frontend
-frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
+frontend_url = os.getenv("FRONTEND_URL", "https://amazon-tracker-ruddy.vercel.app")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url, "http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=[
+        frontend_url,
+        "https://amazon-tracker-ruddy.vercel.app",
+        "http://localhost:5173",
+        "http://127.0.0.1:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
