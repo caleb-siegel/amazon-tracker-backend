@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "queryId": "dp-query-640d5ea9357e-mock",
+    "dataset": "PHYSICAL_ORDERS",
+    "status": "COMPLETED",
+    "requestedAt": "2026-08-18T18:30:00Z",
+    "completedAt": "2026-08-18T18:30:04Z",
+    "recordCount": 4,
+    "apiVersion": "v1"
+  },
+  "data": {
+    "orders": [
+      {
+        "orderId": "114-8923481-9238410",
+        "orderDate": "2026-07-22T14:22:00Z",
+        "orderStatus": "DELIVERED",
+        "marketplace": "Amazon.com",
+        "currency": "USD",
+        "orderTotal": {
+          "amount": 149.97,
+          "currency": "USD"
+        },
+        "paymentMethod": "Amazon Prime Rewards Visa ending in 4128",
+        "shippingAddress": {
+          "recipientName": "Jane Doe",
+          "city": "Seattle",
+          "state": "WA",
+          "postalCode": "98101",
+          "country": "US"
+        },
+        "items": [
+          {
+            "itemId": "item-001",
+            "asin": "B09V3HN1KC",
+            "title": "Echo Dot (5th Gen, 2022 release) | Smart speaker with Alexa | Charcoal",
+            "quantity": 2,
+            "unitPrice": {
+              "amount": 49.99,
+              "currency": "USD"
+            },
+            "totalPrice": {
+              "amount": 99.98,
+              "currency": "USD"
+            },
+            "seller": "Amazon.com Services LLC",
+            "condition": "New",
+            "category": "Smart Home"
+          },
+          {
+            "itemId": "item-002",
+            "asin": "B08N5WRWNW",
+            "title": "Anker USB C Charger 20W, 511 Charger (Nano Pro)",
+            "quantity": 1,
+            "unitPrice": {
+              "amount": 19.99,
+              "currency": "USD"
+            },
+            "totalPrice": {
+              "amount": 19.99,
+              "currency": "USD"
+            },
+            "seller": "AnkerDirect",
+            "condition": "New",
+            "category": "Cell Phones & Accessories"
+          }
+        ],
+        "shipmentDetails": [
+          {
+            "shipmentId": "sh-9812401",
+            "carrier": "Amazon Logistics (AMZL)",
+            "trackingNumber": "TBA391029381029",
+            "shipmentStatus": "DELIVERED",
+            "shipmentDate": "2026-07-23T08:15:00Z",
+            "deliveryDate": "2026-07-24T15:30:00Z",
+            "estimatedDelivery": "2026-07-24"
+          }
+        ]
+      },
+      {
+        "orderId": "112-4019283-1092847",
+        "orderDate": "2026-07-15T09:41:20Z",
+        "orderStatus": "DELIVERED",
+        "marketplace": "Amazon.com",
+        "currency": "USD",
+        "orderTotal": {
+          "amount": 34.5,
+          "currency": "USD"
+        },
+        "paymentMethod": "Mastercard ending in 9012",
+        "shippingAddress": {
+          "recipientName": "Jane Doe",
+          "city": "Seattle",
+          "state": "WA",
+          "postalCode": "98101",
+          "country": "US"
+        },
+        "items": [
+          {
+            "itemId": "item-003",
+            "asin": "B079844JSR",
+            "title": "Contigo AUTOSEAL West Loop Vacuum-Insulated Stainless Steel Travel Mug, 16 oz",
+            "quantity": 1,
+            "unitPrice": {
+              "amount": 25.99,
+              "currency": "USD"
+            },
+            "totalPrice": {
+              "amount": 25.99,
+              "currency": "USD"
+            },
+            "seller": "Amazon.com Services LLC",
+            "condition": "New",
+            "category": "Kitchen & Dining"
+          }
+        ],
+        "shipmentDetails": [
+          {
+            "shipmentId": "sh-8102948",
+            "carrier": "UPS",
+            "trackingNumber": "1Z9999999999999999",
+            "shipmentStatus": "DELIVERED",
+            "shipmentDate": "2026-07-16T11:00:00Z",
+            "deliveryDate": "2026-07-17T14:10:00Z",
+            "estimatedDelivery": "2026-07-17"
+          }
+        ]
+      },
+      {
+        "orderId": "111-7654321-0987654",
+        "orderDate": "2026-06-29T18:05:44Z",
+        "orderStatus": "DELIVERED",
+        "marketplace": "Amazon.com",
+        "currency": "USD",
+        "orderTotal": {
+          "amount": 89.0,
+          "currency": "USD"
+        },
+        "paymentMethod": "Visa ending in 4128",
+        "shippingAddress": {
+          "recipientName": "Jane Doe",
+          "city": "Seattle",
+          "state": "WA",
+          "postalCode": "98101",
+          "country": "US"
+        },
+        "items": [
+          {
+            "itemId": "item-004",
+            "asin": "B091J3NYVF",
+            "title": "Logitech MX Master 3S Wireless Performance Mouse",
+            "quantity": 1,
+            "unitPrice": {
+              "amount": 89.0,
+              "currency": "USD"
+            },
+            "totalPrice": {
+              "amount": 89.0,
+              "currency": "USD"
+            },
+            "seller": "Logitech Official Store",
+            "condition": "New",
+            "category": "Computers & Accessories"
+          }
+        ],
+        "shipmentDetails": [
+          {
+            "shipmentId": "sh-7728192",
+            "carrier": "USPS",
+            "trackingNumber": "9400100000000000000000",
+            "shipmentStatus": "DELIVERED",
+            "shipmentDate": "2026-06-30T10:20:00Z",
+            "deliveryDate": "2026-07-02T16:00:00Z",
+            "estimatedDelivery": "2026-07-02"
+          }
+        ]
+      },
+      {
+        "orderId": "113-5544332-2211009",
+        "orderDate": "2026-05-10T12:00:00Z",
+        "orderStatus": "CANCELLED",
+        "marketplace": "Amazon.com",
+        "currency": "USD",
+        "orderTotal": {
+          "amount": 0.0,
+          "currency": "USD"
+        },
+        "paymentMethod": "Visa ending in 4128",
+        "shippingAddress": null,
+        "items": [
+          {
+            "itemId": "item-005",
+            "asin": "B08P2H5L8Q",
+            "title": "Kindle Paperwhite (16 GB) \u2013 Now with a 6.8\" display and adjustable warm light",
+            "quantity": 1,
+            "unitPrice": {
+              "amount": 139.99,
+              "currency": "USD"
+            },
+            "totalPrice": {
+              "amount": 139.99,
+              "currency": "USD"
+            },
+            "seller": "Amazon.com Services LLC",
+            "condition": "New",
+            "category": "Amazon Devices"
+          }
+        ],
+        "shipmentDetails": []
+      }
+    ]
+  }
+}
