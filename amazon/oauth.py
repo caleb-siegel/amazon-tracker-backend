@@ -11,7 +11,7 @@ class AmazonOAuth:
         self.redirect_uri = os.getenv("AMAZON_REDIRECT_URI", "http://localhost:8000/auth/amazon/callback")
         self.auth_url = os.getenv("AMAZON_LWA_AUTHORIZATION_URL", "https://www.amazon.com/ap/oa")
         self.token_url = os.getenv("AMAZON_LWA_TOKEN_URL", "https://api.amazon.com/auth/o2/token")
-        self.scope = os.getenv("AMAZON_DATA_PORTABILITY_SCOPE", "amazon:data_portability:physical_orders")
+        self.scope = os.getenv("AMAZON_DATA_PORTABILITY_SCOPE", "portability::physical_orders")
         self.mock_mode = os.getenv("AMAZON_MOCK_MODE", "true").lower() in ("1", "true", "yes")
 
     def generate_authorization_url(self, state: Optional[str] = None) -> tuple[str, str]:
